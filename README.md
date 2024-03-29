@@ -4,6 +4,9 @@ This is the backend code of the funlearning website contact form, handling the a
 
 https://github.com/chency0315/funlearning_react
 
+# Api route
+post api/contactUs 
+
 # post request
 ```
 {
