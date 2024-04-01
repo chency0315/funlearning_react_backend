@@ -1,4 +1,3 @@
-// import cors from 'cors';
 import express from 'express';
 import index from '../route/index.route.js';
 import cors from 'cors';
@@ -15,7 +14,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   optionsSuccessStatus:200,
   credentials:true,
-  methods:['GET',"POST","PATCH"]
+  methods:['GET',"POST","PATCH"],
+  //origin: process.env.CORS_ORIGIN_OPTION?.split(","),
 }))
 
 app.use('/api',index)
