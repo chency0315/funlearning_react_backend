@@ -4,6 +4,10 @@ This is the backend code of the funlearning website contact form, handling the a
 
 https://github.com/chency0315/funlearning_react
 
+run npm install or yarn install to download the dependencies
+
+`npm install`
+
 # Api route
 post api/contactUs 
 
